@@ -22,7 +22,7 @@ Un juego de rol basado en texto desarrollado en Next.js con temática post-apoca
 ## 🏗️ Estructura del Proyecto
 
 ```
-wasteland-rpg/
+postapocalipsis-rpg/
 ├── app/
 │   ├── layout.tsx          # Layout principal con fuentes y metadatos
 │   ├── page.tsx            # Página principal
@@ -56,8 +56,8 @@ wasteland-rpg/
 
 ```bash
 # Clonar el proyecto
-git clone [url-del-repositorio]
-cd wasteland-rpg
+git clone [[url-del-repositorio]](https://github.com/ingfranciscastillo/postapocalipsis-rpg)
+cd postapocalipsis-rpg
 
 # Instalar dependencias
 npm install
@@ -175,22 +175,3 @@ User Input → CommandParser → GameEngine → GameStore → React Components
 - [ ] Múltiples finales
 - [ ] Sistema de reputación
 - [ ] Eventos aleatorios
-- [ ] Modo multijugador cooperativo
-
-## 🐛 Debugging y Desarrollo
-
-- Todos los comandos se logean para debugging
-- Estado del juego se persiste automáticamente
-- Validación de comandos y manejo de errores
-- TypeScript previene errores en tiempo de compilación
-
-## 📝 Notas de Desarrollo
-
-Este proyecto está diseñado con **arquitectura modular y escalable**:
-
-- **Fácil agregar nuevos comandos**: Modificar `commandParser.ts` y `gameEngine.ts`
-- **Fácil agregar contenido**: Nuevos enemigos, items o localizaciones solo requieren modificar archivos JSON
-- **Estado reactivo**: Cambios se reflejan automáticamente en la UI
-- **Tipado fuerte**: TypeScript previene errores comunes
-
-El código está estructurado para ser mantenible y extensible, siguiendo principios SOLID y clean architecture.
