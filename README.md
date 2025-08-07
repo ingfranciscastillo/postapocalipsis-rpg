@@ -1,3 +1,7 @@
+![Intro](captura.png)
+![Selección de personaje](captura2.png)
+![Juego](captura3.png)
+
 # El Yermo Eterno - RPG Post-Apocalíptico
 
 Un juego de rol basado en texto desarrollado en Next.js con temática post-apocalíptica. Los jugadores deben sobrevivir en un mundo devastado, combatir criaturas mutantes, gestionar recursos y tomar decisiones que determinarán su destino.
